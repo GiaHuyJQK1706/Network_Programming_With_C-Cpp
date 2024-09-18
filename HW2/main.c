@@ -40,7 +40,7 @@ int ipToHostname(char *param, struct in_addr ip) {
 }
 
 void checkDomainDochai(char *domain) {
-    char api_key[] = "9ac447580cc88e56791b8be0b35c67c8605815b565e79af0b419914914f30c57";  
+    char api_key[] = "YOUR_API_KEY";  // Dien khoa API cua ban
     //char api_key[] = "another_api_key";
     char command_api[512];
     char result_file[] = "result.txt"; // File tam de luu ket qua API
